@@ -1,0 +1,189 @@
+.app-container{
+    min-height: 100vh;
+    // border: 2px solid red;
+    position: relative;
+    padding: 5px;
+    font-family: "Bree serif";
+    background-color: #eaedf8;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* left menu bar styles */
+
+  .left-menu-bar-container{
+    width: 9vh;
+    height: 100vh;
+    // border: 2px solid green;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+/* center dash board styles */
+
+.center-dash-board{
+    // border: 2px solid green;
+    height: 90vh;
+    width: 70%;
+    position: absolute;
+    left: 5%;
+    top: 10vh;
+}
+
+.finance-and-expenses-container{
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* price display cards block */
+
+/* line graph */
+.finance-container{
+    height: 250px;
+    width: 60%;
+    // border: 2px solid gray;
+    margin: 5px 5px 5px 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+/* pie chart */
+
+.all-expenses-container{
+    height: 250px;
+    width: 40%;
+    // border: 2px solid gray;
+    margin: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.dough-nut-texts{
+    // border: 2px solid red;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.daily-text{
+    margin: 3px;
+}
+
+.grey{
+    color: #969696;
+}
+
+
+/* transactions styles */
+
+.transactions-container{
+    width: 97%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    // border: 2px solid red;
+    max-height: 21vh;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    // overflow-y: hidden;
+}
+
+
+.trans-heading-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    /* border: 2px solid green; */
+    margin: 5px;
+    height: 20px;
+}
+
+.transaction-list{
+    list-style-type: none;
+    padding: 0px;
+    /* border: 2px solid black; */
+    margin: 5px;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each-trans{
+    height: 45px;
+    border: 2px solid gray;
+    width: 99%;
+}
+
+/* right side dashboard */
+
+.right-dash-board{
+    /* border: 2px solid green; */
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.my-cards{
+    // border: 2px solid gray;
+    width: 85%;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 7px;
+}
+
+.quick-transfer{
+    // border: 2px solid gray;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 80%;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    // padding:5px 15px 10px 15px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    /* margin-top: 5px; */
+}
+

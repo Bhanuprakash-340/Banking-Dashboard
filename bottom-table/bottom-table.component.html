@@ -1,0 +1,25 @@
+
+<p-table [value]="transactionData">
+    <ng-template pTemplate="body" let-transaction>
+        <ul class="transaction-list">
+            <li class='each-trans prof'> <div class="user-profile">1</div></li>
+            <li class='each-trans-name'>{{transaction.name}}</li>
+            <li class='each-trans'>{{transaction.company}}</li>
+            <li class='each-trans'>{{transaction.registered |date:'shorliate'}}</li>
+            <li class='each-trans'>{{transaction.registered | date :'mediumTime'}}</li>
+            <li class='each-trans'>${{transaction.balance}}</li>
+            <li class="{{transaction.status === 'pending' ? 'each-trans red' : 'each-trans green'}}">{{transaction.status}}</li>
+            <li class='each-trans down-icon'><div class='left-icons size arrow'>
+                <mat-icon class="icon-size-pro">
+                  <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,1,0" />
+                </mat-icon>
+              </div></li>
+        </ul>
+    </ng-template>
+   
+</p-table>
+
+

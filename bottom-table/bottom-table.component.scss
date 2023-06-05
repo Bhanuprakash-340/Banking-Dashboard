@@ -1,0 +1,69 @@
+.transaction-list{
+    list-style-type: none;
+    padding: 0px;
+    border: 1px solid grey;
+    margin: 2px;
+    // min-height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:65vw;
+    height: 45px;
+}
+
+.each-trans{
+    height: 45px;
+    // border: 2px solid gray;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #969696;
+    font-size: 13px;
+}
+
+.prof{
+    width: 150px;
+}
+
+.user-profile{
+height: 35px;
+width: 35px;
+// border: 2px solid red;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 20px;
+color: #ffffff;
+background-color:#0E8388 ;
+}
+
+.each-trans-name{
+    height: 45px;
+    //  border: 2px solid gray;
+    width: 99%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // color: #969696;
+    font-size: 13px;
+}
+
+
+.down-icon{
+    // border: 1px solid red;
+    display: flex;
+    align-self: flex-start;
+    width: 40px;
+    padding-right: 40px;
+}
+
+.red{
+    color:#E0B1AE;
+}
+
+.green{
+    color: #92C17B;
+}

@@ -1,0 +1,137 @@
+/* right side dashboard */
+.credit-image{
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.cards-h{
+    margin: 0px;
+}
+
+.name-dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // border: 2px solid red;
+    width: 85%;
+    height:6px;
+    padding: 20px;
+}
+
+.credit-card-image-container{
+    width: 95%;
+    padding:10px;
+    // border: 2px solid red;
+}
+
+.add-card{
+    height: 35px;
+    width: 95%;
+   font-size: 16px;
+   font-weight: 700;
+   background-color: #eaedf8;
+   color: #2643a7;
+   border-radius: 5px;
+   border: none;
+   padding:21px 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+//    border: 2px solid blue;
+   margin-left: 10px;
+}
+
+.card-ups-down{
+    // border: 2px solid green;
+    width: 90%;
+    margin-top: 10px;
+   padding:10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   margin-left: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards-up-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green{
+    color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    // border: 1px solid black;
+}
+
+.red{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    // border: 1px solid black;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid blue;
+    width: 150px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    height:30px;
+    font-size: 15px;
+}
+
+.stat-arrow{
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.card-currency-amount{
+    // border: 2px solid black;
+    height: 50px;
+    height: 60px;
+    
+}
+
+.currency-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.need-mar{
+    margin: 0px;
+    padding: 5px;
+    color: #969696;
+}
+
+.cu{
+    width: 50%;
+    margin: 0px;
+}
+
+.text-weight{
+    font-weight: 800;
+    color: #000000;
+}
+
+.plus{
+    font-weight: bolder;
+    font-size: 21px;
+}

@@ -1,0 +1,71 @@
+
+
+<div class="app-container">
+
+    <!-- left menu bar -->
+    <div class='left-menu-bar-container'>
+      <app-left-menu-bar></app-left-menu-bar>
+    </div>
+
+    <!-- top menu bar -->
+    <app-top-menu-bar></app-top-menu-bar>
+
+    <!-- center dash board -->
+    <div class='center-dash-board'>
+
+        <!-- price display cards  -->  
+        <app-check-balance></app-check-balance>
+        <!-- line graph and pie charts container -->
+        <div class='finance-and-expenses-container'>
+            <!-- line graph  -->
+            <div class='finance-container'>
+              <app-double-line-chart></app-double-line-chart>
+            </div>
+            <!-- pie chart -->
+            <div class='all-expenses-container'>
+              <app-doughnut-chart></app-doughnut-chart>
+              <div class="dough-nut-texts">
+               <div>
+                <p class="daily-text grey">Daily</p>
+                <h3 class="daily-text">$573.5</h3>
+               </div>
+               <div>
+                <p class="daily-text grey">Daily</p>
+                <h3 class="daily-text">$4791</h3>
+               </div>
+               <div>
+                <p class="daily-text grey">Daily</p>
+                <h3 class="daily-text">$19,112</h3>
+               </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Transactions block -->
+        <div class='transactions-container'>
+          <div class='trans-heading-block'>
+            <h4>Transactions</h4>
+            <p>Recent</p>
+        </div>
+            <app-bottom-table></app-bottom-table>
+         </div>
+
+      </div>
+
+      <!-- right side dash board -->
+
+      <div class='right-dash-board'>
+
+        <!-- my cards block -->
+        <div class='my-cards'>
+          <app-my-cards></app-my-cards>
+        </div>
+
+        <!-- quick transfers -->
+        <div class='quick-transfer'>
+          <app-quick-transfer></app-quick-transfer>
+        </div>
+
+      </div>
+   
+</div>
